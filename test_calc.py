@@ -1,6 +1,6 @@
 import unittest
 
-from calc import add, average, multiply
+from calc import add, mean, multiply
 
 
 class CalcTest(unittest.TestCase):
@@ -10,8 +10,8 @@ class CalcTest(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(multiply(3, 4), 12)
 
-    def test_average(self):
-        self.assertEqual(average([2, 4, 6]), 4)
+    def test_mean(self):
+        self.assertEqual(mean([2, 4, 6]), 4)
 
 
 if __name__ == "__main__":
