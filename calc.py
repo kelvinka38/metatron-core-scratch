@@ -6,5 +6,5 @@ def multiply(a, b):
     return a * b
 
 
-def average(values):
+def mean(values):
     return sum(values) / len(values)

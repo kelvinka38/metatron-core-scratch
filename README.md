@@ -4,7 +4,7 @@
 
 `calc.py` provides basic utility functions for calculations:
 - `add(a, b)`: Returns the sum of two numbers `a` and `b`.
-- `average(values)`: Returns the arithmetic mean of a sequence of numbers `values`.
+- `mean(values)`: Returns the arithmetic mean of a sequence of numbers `values`.
 
 ## Running Tests
 
